@@ -1,0 +1,9 @@
+git init -> Inicia repositorio vazio no seu computador
+
+git branch -M main -> Cria uma branch para o repositorio
+
+git remote add NOME URL_ORIGIN -> Conecta seu repositorio com o repositorio do github
+
+git statuS -> Verifica as alteracoes que nao foram commitadas
+
+git add . -> . seleciona todos os arquivos da pasta
