@@ -13,3 +13,5 @@ git commit -M "TEXTO"
 git push origin main -> Envia o arquivo para o GITHUB
 
 git pull origin main -> Tras o arquivo alterado do Github para sua maquina
+
+git checkout BRANCH -> faz a troca das branchs que voce esta
