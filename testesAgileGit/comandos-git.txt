@@ -99,3 +99,26 @@ Descrição: Remove um arquivo do diretório e marca sua exclusão para ser comm
 git reset --hard ID_do_commit
 Descrição: Redefine o repositório para o estado de um commit específico. Cuidado: pode causar perda de alterações!
 
+------------------ Alura Alura
+
+git init -> Inicia repositorio vazio no seu computador
+
+git branch -M main -> Cria uma branch para o repositorio
+
+git remote add NOME URL_ORIGIN -> Conecta seu repositorio com o repositorio do github
+
+git statuS -> Verifica as alteracoes que nao foram commitadas
+
+git add . -> . seleciona todos os arquivos da pasta
+
+git commit -M "TEXTO"
+
+git push origin main -> Envia o arquivo para o GITHUB
+
+git pull origin main -> Tras o arquivo alterado do Github para sua maquina
+
+git checkout BRANCH -> faz a troca das branchs que voce esta
+
+git tag -a v1.0 -m "Versao 1.0" -> Cria uma tag para a versao atual
+
+git push origin v1.0 -> Envia para o github

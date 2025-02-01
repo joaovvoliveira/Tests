@@ -1,17 +1,19 @@
-git init -> Inicia repositorio vazio no seu computador
+GitFlow
+Modelo de branches: usa um modelo de ramificações mais complexo, com branches específicas para features, releases, hotfixes, etc.
 
-git branch -M main -> Cria uma branch para o repositorio
+Gerenciamento de versão: facilita o gerenciamento de versões e releases, pois existem branches dedicadas para essas finalidades.
 
-git remote add NOME URL_ORIGIN -> Conecta seu repositorio com o repositorio do github
+Isolamento de recursos: permite o isolamento de recursos em desenvolvimento, o que pode ser útil para projetos grandes ou com múltiplas equipes.
 
-git statuS -> Verifica as alteracoes que nao foram commitadas
+Ciclo de vida claro: oferece um ciclo de vida claro para features, com branches dedicadas.
 
-git add . -> . seleciona todos os arquivos da pasta
+Estabilidade em Releases: fornece maior estabilidade nas versões de release, pois o desenvolvimento é mesclado em branches específicas para esse fim.
 
-git commit -M "TEXTO"
+Trunk Based
+Branches Simplificadas: usa um modelo de ramificação mais simples, geralmente com apenas uma branch principal.
 
-git push origin main -> Envia o arquivo para o GITHUB
+Entregas Contínuas: favorece a entrega contínua, pois as modificações são integradas diretamente na branch principal.
 
-git pull origin main -> Tras o arquivo alterado do Github para sua maquina
+Menos sobrecarga: reduz a sobrecarga associada à criação e manutenção de múltiplas branches.
 
-git checkout BRANCH -> faz a troca das branchs que voce esta
+Retroalimentação rápida: proporciona feedback rápido, pois as mudanças são integradas mais frequentemente.
