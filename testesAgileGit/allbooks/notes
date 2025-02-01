@@ -7,3 +7,9 @@ git remote add NOME URL_ORIGIN -> Conecta seu repositorio com o repositorio do g
 git statuS -> Verifica as alteracoes que nao foram commitadas
 
 git add . -> . seleciona todos os arquivos da pasta
+
+git commit -M "TEXTO"
+
+git push origin main -> Envia o arquivo para o GITHUB
+
+git pull origin main -> Tras o arquivo alterado do Github para sua maquina
