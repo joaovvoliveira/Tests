@@ -21,6 +21,6 @@ server.listen(8000, () => {
 <<<<<<< HEAD
 	console.log("Welcome")
 =======
-  console.log("Acesse essa API em http://localhost:8000")
+  console.log("API disponivel em http://localhost:8000")
 >>>>>>> e9cd5dbec750ae451b1d896f921f1bc4c6d7d3f8
 })
